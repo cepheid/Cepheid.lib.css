@@ -40,11 +40,12 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color='#bbbbbb', Direction=135, 
 .yellow{color:#FF0}
 
 /* link-related */
-.active{font-weight:700}
-.cursor-pointer{cursor:pointer}
-.not-underlined, .not-underlined:hover {text-decoration:none}
 a, a:visited{color:#004d9d;text-decoration:underline}
 a:hover {color:#00F}
+.active{font-weight:700}
+.cursor-pointer{cursor:pointer}
+.not-underlined,.not-underlined:hover,a.not-underlined,a.not-underlined:hover{text-decoration:none}
+.underlined,a.underlined{text-decoration:underline}
 
 /* lists */
 .no-list-style{list-style-type:none}
