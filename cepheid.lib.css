@@ -11,20 +11,20 @@ img{border:0}
 
 /* 2. SHARED AND COMMON CLASSES
 ------------------------------------------------------------------ */
-/* backgrounds */
-.background-sprite{background:url(../images/background-sprite.png) no-repeat}
+/* backgrounds
+.background-sprite{background:url(../images/background-sprite.png) no-repeat}*/
 
 /* boxes and borders */
-.box-standard {border:1px #999 solid;padding:10px}
+.box-standard{border:1px #999 solid;padding:10px}
 
 /* css3 */
 .dropshadowed{-moz-box-shadow:3px 3px 6px #bbb;-webkit-box-shadow:3px 3px 6px #bbb;box-shadow:3px 3px 6px #bbb;zoom:1;
 filter:progid:DXImageTransform.Microsoft.Shadow(color='#bbbbbb', Direction=135, Strength=4)}
 .rounded{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
 .rounded-small{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
-.rounded-top-left {-moz-border-radius-topleft:8px;-webkit-border-top-left-radius:8px;border-top-left-radius:8px}
-.rounded-top-right {-moz-border-radius-topright:8px;-webkit-border-top-right-radius:8px;border-top-right-radius:8px}
-.rounded-bottom-left {-moz-border-radius-bottomleft:8px;-webkit-border-bottom-left-radius:8px;border-bottom-left-radius:8px}
+.rounded-top-left{-moz-border-radius-topleft:8px;-webkit-border-top-left-radius:8px;border-top-left-radius:8px}
+.rounded-top-right{-moz-border-radius-topright:8px;-webkit-border-top-right-radius:8px;border-top-right-radius:8px}
+.rounded-bottom-left{-moz-border-radius-bottomleft:8px;-webkit-border-bottom-left-radius:8px;border-bottom-left-radius:8px}
 .rounded-bottom-right {-moz-border-radius-bottomright:8px;-webkit-border-bottom-right-radius:8px;border-bottom-right-radius:8px}
 
 /* colors */
@@ -40,8 +40,8 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color='#bbbbbb', Direction=135, 
 .yellow{color:#FF0}
 
 /* link-related */
-a, a:visited{color:#004d9d;text-decoration:underline}
-a:hover {color:#00F}
+a,a:visited{color:#004d9d;text-decoration:underline}
+a:hover{color:#00F}
 .active{font-weight:700}
 .cursor-pointer{cursor:pointer}
 .not-underlined,.not-underlined:hover,a.not-underlined,a.not-underlined:hover{text-decoration:none}
@@ -51,16 +51,16 @@ a:hover {color:#00F}
 .no-list-style{list-style-type:none}
 
 /* margin and padding */
-.after0{margin-right:0}.after3{margin-right:3px}.after6{margin-right:6px}.after9{margin-right:9px}.after12{margin-right:12px}.after15{margin-right:15px}.after18{margin-right:18px}
-.append0{padding-right:0}.append3{padding-right:3px}.append6{padding-right:6px}.append9{padding-right:9px}.append12{padding-right:12px}.append15{padding-right:15px}.append18{padding-right:18px}
-.before0{margin-left:0}.before3{margin-left:3px}.before6{margin-left:6px}.before9{margin-left:9px}.before12{margin-left:12px}.before15{margin-left:15px}.before18{margin-left:18px}
-.margin0{margin:0}.margin3{margin:3px}.margin6{margin:6px}.margin9{margin:9px}.margin12{margin:12px}.margin15{margin:15px}.margin18{margin:18px}
-.marginbottom0{margin-bottom:0}.marginbottom3{margin-bottom:3px}.marginbottom6{margin-bottom:6px}.marginbottom9{margin-bottom:9px}.marginbottom12{margin-bottom:12px}.marginbottom15{margin-bottom:15px}.marginbottom18{margin-bottom:18px}
-.margintop0{margin-top:0}.margintop3{margin-top:3px}.margintop6{margin-top:6px}.margintop9{margin-top:9px}.margintop12{margin-top:12px}.margintop15{margin-top:15px}.margintop18{margin-top:18px}
-.padbottom0{padding-bottom:0}.padbottom3{padding-bottom:3px}.padbottom6{padding-bottom:6px}.padbottom9{padding-bottom:9px}.padbottom12{padding-bottom:12px}.padbottom15{padding-bottom:15px}.padbottom18{padding-bottom:18px}
-.padding0{padding:0}.padding3{padding:3px}.padding6{padding:6px}.padding9{padding:9px}.padding12{padding:12px}.padding15{padding:15px}.padding18{padding:18px}
-.padtop0{padding-top:0}.padtop3{padding-top:3px}.padtop6{padding-top:6px}.padtop9{padding-top:9px}.padtop12{padding-top:12px}.padtop15{padding-top:15px}.padtop18{padding-top:18px}
-.prepend0{padding-left:0}.prepend3{padding-left:3px}.prepend6{padding-left:6px}.prepend9{padding-left:9px}.prepend12{padding-left:12px}.prepend15{padding-left:15px}.prepend18{padding-left:18px}
+.after0{margin-right:0}.after3{margin-right:3px}.after6{margin-right:6px}.after9{margin-right:9px}.after12{margin-right:12px}.after15{margin-right:15px}.after18{margin-right:18px}.after24{margin-right:24px}.after30{margin-right:30px}
+.append0{padding-right:0}.append3{padding-right:3px}.append6{padding-right:6px}.append9{padding-right:9px}.append12{padding-right:12px}.append15{padding-right:15px}.append18{padding-right:18px}.append24{padding-right:24px}.append130{padding-right:30px}
+.before0{margin-left:0}.before3{margin-left:3px}.before6{margin-left:6px}.before9{margin-left:9px}.before12{margin-left:12px}.before15{margin-left:15px}.before18{margin-left:18px}.before24{margin-left:24px}.before30{margin-left:30px}
+.margin0{margin:0}.margin3{margin:3px}.margin6{margin:6px}.margin9{margin:9px}.margin12{margin:12px}.margin15{margin:15px}.margin18{margin:18px}.margin24{margin:24px}.margin30{margin:30px}
+.marginbottom0{margin-bottom:0}.marginbottom3{margin-bottom:3px}.marginbottom6{margin-bottom:6px}.marginbottom9{margin-bottom:9px}.marginbottom12{margin-bottom:12px}.marginbottom15{margin-bottom:15px}.marginbottom18{margin-bottom:18px}.marginbottom124{margin-bottom:24px}.marginbottom30{margin-bottom:30px}
+.margintop0{margin-top:0}.margintop3{margin-top:3px}.margintop6{margin-top:6px}.margintop9{margin-top:9px}.margintop12{margin-top:12px}.margintop15{margin-top:15px}.margintop18{margin-top:18px}.margintop24{margin-top:24px}.margintop30{margin-top:30px}
+.padbottom0{padding-bottom:0}.padbottom3{padding-bottom:3px}.padbottom6{padding-bottom:6px}.padbottom9{padding-bottom:9px}.padbottom12{padding-bottom:12px}.padbottom15{padding-bottom:15px}.padbottom18{padding-bottom:18px}.padbottom24{padding-bottom:24px}.padbottom30{padding-bottom:30px}
+.padding0{padding:0}.padding3{padding:3px}.padding6{padding:6px}.padding9{padding:9px}.padding12{padding:12px}.padding15{padding:15px}.padding18{padding:18px}.padding24{padding:24px}.padding30{padding:30px}
+.padtop0{padding-top:0}.padtop3{padding-top:3px}.padtop6{padding-top:6px}.padtop9{padding-top:9px}.padtop12{padding-top:12px}.padtop15{padding-top:15px}.padtop18{padding-top:18px}.padtop24{padding-top:24px}.padtop30{padding-top:30px}
+.prepend0{padding-left:0}.prepend3{padding-left:3px}.prepend6{padding-left:6px}.prepend9{padding-left:9px}.prepend12{padding-left:12px}.prepend15{padding-left:15px}.prepend18{padding-left:18px}.prepend24{padding-left:24px}.prepend30{padding-left:30px}
 
 /* positional */
 .aligned-center{text-align:center}
@@ -77,31 +77,31 @@ a:hover {color:#00F}
 .test2{background-color:#FF0}
 
 /* typography */
-.size9{font-size:9px} .size10{font-size:10px} .size11{font-size:11px} .size12{font-size:12px} .size14{font-size:14px} .size15{font-size:15px} .size18{font-size:18px} .size21{font-size:21px} .size24{font-size:24px} .size27{font-size:27px}
+.size9{font-size:9px}.size10{font-size:10px}.size11{font-size:11px}.size12{font-size:12px}.size14{font-size:14px}.size15{font-size:15px}.size18{font-size:18px}.size21{font-size:21px}.size24{font-size:24px}.size27{font-size:27px}
 
-.arial {font-family:Arial, Helvetica, sans-serif}
-.georgia {font-family:Georgia, "Times New Roman", Times, serif}
-.tahoma {font-family:Tahoma, Arial, Helvetica, sans-serif}
-.times {font-family:"Times New Roman", Times, serif}
-.trebuchet {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
-.verdana {font-family:Verdana, Arial, Helvetica, sans-serif}
+.arial{font-family:Arial, Helvetica, sans-serif}
+.georgia{font-family:Georgia, "Times New Roman", Times, serif}
+.tahoma{font-family:Tahoma, Arial, Helvetica, sans-serif}
+.times{font-family:"Times New Roman", Times, serif}
+.trebuchet{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+.verdana{font-family:Verdana, Arial, Helvetica, sans-serif}
 
-em, .em {font-style:italic}
-strong, b, .b, .strong {font-weight:700}
+em,.em{font-style:italic}
+strong,b,.b,.strong{font-weight:700}
 
-.lowercase {text-transform:lowercase}
-.uppercase {text-transform:uppercase}
+.lowercase{text-transform:lowercase}
+.uppercase{text-transform:uppercase}
 
-h1, h2, h3, h4, h6{color:#13242b}
 h1{font: 42px/60px Arial, serif}
 h2{font: 30px/48px Arial, serif}
-h3, legend, caption{font: 21px/36px Arial, serif}
-h4, th{font: 15px/24px Arial, sans-serif;font-weight:700}
-h5, p{font: 12px/18px Arial, sans-serif;color:#333;margin:0 0 21px 0}
+h3,legend,caption{font: 21px/36px Arial, serif}
+h4,th{font: 15px/24px Arial, sans-serif;font-weight:700}
+h5{font: 12px/18px Arial, sans-serif}
 h6{font: 10px/15px Arial, sans-serif;font-weight:700}
+p{font: 12px/18px Arial, sans-serif;color:#333;margin:0 0 21px 0}
 
-ul, ol {font-size:12px}
-ol ol {list-style: lower-roman}
+ul,ol{font-size:12px}
+ol ol{list-style: lower-roman}
 
 /* visibility */
 .block{display:block}
