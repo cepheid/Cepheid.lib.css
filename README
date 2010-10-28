@@ -4,4 +4,11 @@ CSS RESET AND FRAMEWORK
 by Steve Svoboda
 for CepheidDesign.com
 
+Mission:
+This framework is intended to be used within a 960 pixel-wide layout, and allows for quick common class additions using Firebug and/or any text-editor that allows for class hints (ie Dreamweaver)
+
+Margins and padding, widths and font size classes are typically divisible by 3, so regardless of the number of columns you're using in the 960 layout, everything should line up and look pretty.
+
+
+
 Free to use under GitHub license, 2010.
