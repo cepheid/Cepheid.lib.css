@@ -1,6 +1,6 @@
-@charset "UTF-8";
+@charset utf-8;
 
-/* Cepheid.lib.css for Steve Svoboda, cepheiddesign.com
+/* Cepheid.lib.css for Steve Svoboda, cepheiddesign.com  03/2014
 ------------------------------------------------------------------
 
 /* 1. BASIC CSS RESET
@@ -11,30 +11,29 @@ img{border:0}
 
 /* 2. SHARED AND COMMON CLASSES
 ------------------------------------------------------------------ */
-/* backgrounds
-.background-sprite{background:url(../images/background-sprite.png) no-repeat}*/
+/* backgrounds (commented out by default)*/
+/*.background-sprite{background:url(../images/background-sprite.png) no-repeat}*/
 
 /* boxes and borders */
 .box-standard{border:1px #999 solid;padding:10px}
 
-/* css3 */
-.dropshadowed{-moz-box-shadow:3px 3px 6px #bbb;-webkit-box-shadow:3px 3px 6px #bbb;box-shadow:3px 3px 6px #bbb;zoom:1;
-filter:progid:DXImageTransform.Microsoft.Shadow(color='#bbbbbb', Direction=135, Strength=4)}
+/* css3, cssprefixes applied */
+.dropshadowed{-moz-box-shadow:3px 3px 6px #bbb;-webkit-box-shadow:3px 3px 6px #bbb;box-shadow:3px 3px 6px #bbb}
 .rounded{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
 .rounded-small{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
-.rounded-top-left{-moz-border-radius-topleft:8px;-webkit-border-top-left-radius:8px;border-top-left-radius:8px}
-.rounded-top-right{-moz-border-radius-topright:8px;-webkit-border-top-right-radius:8px;border-top-right-radius:8px}
-.rounded-bottom-left{-moz-border-radius-bottomleft:8px;-webkit-border-bottom-left-radius:8px;border-bottom-left-radius:8px}
-.rounded-bottom-right {-moz-border-radius-bottomright:8px;-webkit-border-bottom-right-radius:8px;border-bottom-right-radius:8px}
+.rounded-top-left{-moz-border-radius-topleft:8px;-webkit-border-top-left-radius:8px;-moz-border-radius-topleft:8px;border-top-left-radius:8px}
+.rounded-top-right{-moz-border-radius-topright:8px;-webkit-border-top-right-radius:8px;-moz-border-radius-topright:8px;border-top-right-radius:8px}
+.rounded-bottom-left{-moz-border-radius-bottomleft:8px;-webkit-border-bottom-left-radius:8px;-moz-border-radius-bottomleft:8px;border-bottom-left-radius:8px}
+.rounded-bottom-right{-moz-border-radius-bottomright:8px;-webkit-border-bottom-right-radius:8px;-moz-border-radius-bottomright:8px;border-bottom-right-radius:8px}
 
 /* colors */
-.back-dark-brown{background-color:#48453E}
+.back-brown{background-color:#666633}
 .back-light-gray{background-color:#E0E0E0}
 .beige{color:#D5C5B6}
 .black{color:#000}
-.dark-brown{color:#48453E}
-.light-gray{color:#E0E0E0}
-.lime-green{color:#87AE06}
+.brown{color:#666633}
+.gray{color:#999999}
+.green{color:#0C0}
 .red{color:#F00}
 .white{color:#FFF}
 .yellow{color:#FF0}
@@ -52,7 +51,7 @@ a:hover{color:#00F}
 
 /* margin and padding */
 .after0{margin-right:0}.after3{margin-right:3px}.after6{margin-right:6px}.after9{margin-right:9px}.after12{margin-right:12px}.after15{margin-right:15px}.after18{margin-right:18px}.after24{margin-right:24px}.after30{margin-right:30px}
-.append0{padding-right:0}.append3{padding-right:3px}.append6{padding-right:6px}.append9{padding-right:9px}.append12{padding-right:12px}.append15{padding-right:15px}.append18{padding-right:18px}.append24{padding-right:24px}.append130{padding-right:30px}
+.append0{padding-right:0}.append3{padding-right:3px}.append6{padding-right:6px}.append9{padding-right:9px}.append12{padding-right:12px}.append15{padding-right:15px}.append18{padding-right:18px}.append24{padding-right:24px}.append30{padding-right:30px}
 .before0{margin-left:0}.before3{margin-left:3px}.before6{margin-left:6px}.before9{margin-left:9px}.before12{margin-left:12px}.before15{margin-left:15px}.before18{margin-left:18px}.before24{margin-left:24px}.before30{margin-left:30px}
 .margin0{margin:0}.margin3{margin:3px}.margin6{margin:6px}.margin9{margin:9px}.margin12{margin:12px}.margin15{margin:15px}.margin18{margin:18px}.margin24{margin:24px}.margin30{margin:30px}
 .marginbottom0{margin-bottom:0}.marginbottom3{margin-bottom:3px}.marginbottom6{margin-bottom:6px}.marginbottom9{margin-bottom:9px}.marginbottom12{margin-bottom:12px}.marginbottom15{margin-bottom:15px}.marginbottom18{margin-bottom:18px}.marginbottom24{margin-bottom:24px}.marginbottom30{margin-bottom:30px}
@@ -90,22 +89,19 @@ a:hover{color:#00F}
 
 em,.em{font-style:italic}
 strong,b,.b,.strong{font-weight:700}
-
 .lowercase{text-transform:lowercase}
 .uppercase{text-transform:uppercase}
-
-h1{font: 42px/60px Arial, serif}
-h2{font: 30px/48px Arial, serif}
-h3,legend,caption{font: 21px/36px Arial, serif}
-h4,th{font: 15px/24px Arial, sans-serif;font-weight:700}
-h5{font: 12px/18px Arial, sans-serif}
-h6{font: 10px/15px Arial, sans-serif;font-weight:700}
-p{font: 12px/18px Arial, sans-serif;color:#333;margin:0 0 21px 0}
-
+h1{font:42px/60px Arial, serif}
+h2{font:30px/48px Arial, serif}
+h3,legend,caption{font:21px/36px Arial, serif}
+h4,th{font:15px/24px Arial, sans-serif;font-weight:700}
+h5{font:12px/18px Arial, sans-serif}
+h6{font:10px/15px Arial, sans-serif;font-weight:700}
+p{font:12px/18px Arial, sans-serif;color:#333;margin:0 0 21px}
 ul,ol{font-size:12px}
-ol ol{list-style: lower-roman}
+ol ol{list-style:lower-roman}
 
-.apple-spacing{letter-spacing:-0.03em}
+.apple-spacing{letter-spacing:-.03em}
 
 /* visibility */
 .block{display:block}
