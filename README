@@ -5,10 +5,10 @@ by Steve Svoboda
 for CepheidDesign.com
 
 Mission:
-This framework is intended to be used within a 960 pixel-wide layout, and allows for quick common class additions using Firebug and/or any text-editor that allows for class hints (ie Dreamweaver)
+This framework is for my personal use so I have a quick set of CSS classes available to me at a moment's notice. 
 
-Margins and padding, widths and font size classes are typically divisible by 3, so regardless of the number of columns you're using in the 960 layout, everything should line up and look pretty.
+Margins and padding, widths and font size classes are typically divisible by 3, so regardless of the number of columns you're using in something like a 360/480/960 layout, everything should line up and look pretty.
 
 
 
-Free to use under GitHub license, 2010.
+Free to use under GitHub license, 2010-2014.
