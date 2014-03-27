@@ -105,7 +105,7 @@ ol ol{list-style:lower-roman}
 
 /* visibility */
 .block{display:block}
-.clear{clear:both;display:block}
+.clear:after {content: "";display: table;clear: both}
 .hidden{display:none}
 .inline{display:inline}
 .overflow-hidden{overflow:hidden}
