@@ -1,4 +1,4 @@
-@charset utf-8;
+@charset "utf-8";
 
 /* Cepheid.lib.css for Steve Svoboda, cepheiddesign.com  03/2014
 ------------------------------------------------------------------
@@ -17,15 +17,6 @@ img{border:0}
 /* boxes and borders */
 .box-standard{border:1px #999 solid;padding:10px}
 
-/* css3, cssprefixes applied */
-.dropshadowed{-moz-box-shadow:3px 3px 6px #bbb;-webkit-box-shadow:3px 3px 6px #bbb;box-shadow:3px 3px 6px #bbb}
-.rounded{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
-.rounded-small{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
-.rounded-top-left{-moz-border-radius-topleft:8px;-webkit-border-top-left-radius:8px;-moz-border-radius-topleft:8px;border-top-left-radius:8px}
-.rounded-top-right{-moz-border-radius-topright:8px;-webkit-border-top-right-radius:8px;-moz-border-radius-topright:8px;border-top-right-radius:8px}
-.rounded-bottom-left{-moz-border-radius-bottomleft:8px;-webkit-border-bottom-left-radius:8px;-moz-border-radius-bottomleft:8px;border-bottom-left-radius:8px}
-.rounded-bottom-right{-moz-border-radius-bottomright:8px;-webkit-border-bottom-right-radius:8px;-moz-border-radius-bottomright:8px;border-bottom-right-radius:8px}
-
 /* colors */
 .back-brown{background-color:#666633}
 .back-light-gray{background-color:#E0E0E0}
@@ -37,6 +28,16 @@ img{border:0}
 .red{color:#F00}
 .white{color:#FFF}
 .yellow{color:#FF0}
+
+/* css3, cssprefixes applied */
+.dropshadowed{-moz-box-shadow:3px 3px 6px #bbb;-webkit-box-shadow:3px 3px 6px #bbb;box-shadow:3px 3px 6px #bbb}
+.rounded{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.rounded-small{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+.rounded-top-left{-moz-border-radius-topleft:8px;-webkit-border-top-left-radius:8px;border-top-left-radius:8px}
+.rounded-top-right{-moz-border-radius-topright:8px;-webkit-border-top-right-radius:8px;border-top-right-radius:8px}
+.rounded-bottom-left{-moz-border-radius-bottomleft:8px;-webkit-border-bottom-left-radius:8px;border-bottom-left-radius:8px}
+.rounded-bottom-right{-moz-border-radius-bottomright:8px;-webkit-border-bottom-right-radius:8px;border-bottom-right-radius:8px}
+.hover-transition{-webkit-transition:all 0.5s ease-out;transition:all 0.5s ease-out;}
 
 /* link-related */
 a,a:visited{color:#004d9d;text-decoration:underline}
