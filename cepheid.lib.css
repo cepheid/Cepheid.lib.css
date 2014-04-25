@@ -28,7 +28,9 @@ header, section, article, nav, footer, aside, hgroup{display:block}
 .padtop0{padding-top:0}.padtop3{padding-top:3px}.padtop6{padding-top:6px}.padtop9{padding-top:9px}.padtop12{padding-top:12px}.padtop15{padding-top:15px}.padtop18{padding-top:18px}.padtop24{padding-top:24px}.padtop30{padding-top:30px}
 .prepend0{padding-left:0}.prepend3{padding-left:3px}.prepend6{padding-left:6px}.prepend9{padding-left:9px}.prepend12{padding-left:12px}.prepend15{padding-left:15px}.prepend18{padding-left:18px}.prepend24{padding-left:24px}.prepend30{padding-left:30px}
 
-
+/* flex box */
+.flex-parent{display:flex;flex-direction:row;flex-wrap:wrap}
+.flex{flex:1;order:0;/*min-width: 25%;min-height: 100px*/}
 
 /* link-related */
 a:hover{color:blue}
