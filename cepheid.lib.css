@@ -1,57 +1,22 @@
 @charset "utf-8";
 
-/* Cepheid.lib.css for Steve Svoboda, cepheiddesign.com  03/2014
+/* Cepheid.lib.css for Steve Svoboda, cepheiddesign.com  04/2014
 ------------------------------------------------------------------
 
-/* 1. BASIC CSS RESET
-------------------------------------------------------------------*/
-html,body,div,form,fieldset{margin:0;padding:0}
-h1,h2,h3,h4,h5,h6,p,cite,blockquote{font-weight:400;font-style:normal;margin:0;padding:0}
-img{border:0}
+/* basic css reset */
 
-/* 2. SHARED AND COMMON CLASSES
------------------------------------------------------------------- */
+*{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6,p,cite,blockquote{font-weight:400;font-style:normal}
+img{border:0}
+header, section, article, nav, footer, aside, hgroup{display:block}
+
 /* backgrounds (commented out by default)*/
 /*.background-sprite{background:url(../images/background-sprite.png) no-repeat}*/
 
 /* boxes and borders */
-.box-standard{border:1px #999 solid;padding:10px}
+.box-standard{border:1px gray solid;padding:10px}
 
-/* colors */
-.back-brown{background-color:#666633}
-.back-gradient-gray{background-image: linear-gradient(#E0E0E0, #CCC);}
-.back-light-gray{background-color:#E0E0E0}
-.beige{color:#D5C5B6}
-.black{color:#000}
-.brown{color:#666633}
-.gray{color:#999999}
-.green{color:#0C0}
-.red{color:#F00}
-.white{color:#FFF}
-.yellow{color:#FF0}
-
-/* css3, cssprefixes applied */
-.dropshadowed{-moz-box-shadow:3px 3px 6px #bbb;-webkit-box-shadow:3px 3px 6px #bbb;box-shadow:3px 3px 6px #bbb}
-.hover-transition{-webkit-transition:all 0.5s ease-out;transition:all 0.5s ease-out;}
-.rounded{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
-.rounded-small{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
-.rounded-top-left{-moz-border-radius-topleft:8px;-webkit-border-top-left-radius:8px;border-top-left-radius:8px}
-.rounded-top-right{-moz-border-radius-topright:8px;-webkit-border-top-right-radius:8px;border-top-right-radius:8px}
-.rounded-bottom-left{-moz-border-radius-bottomleft:8px;-webkit-border-bottom-left-radius:8px;border-bottom-left-radius:8px}
-.rounded-bottom-right{-moz-border-radius-bottomright:8px;-webkit-border-bottom-right-radius:8px;border-bottom-right-radius:8px}
-
-/* link-related */
-a,a:visited{color:#004d9d;text-decoration:underline}
-a:hover{color:#00F}
-.active{font-weight:700}
-.cursor-pointer{cursor:pointer}
-.not-underlined,.not-underlined:hover,a.not-underlined,a.not-underlined:hover{text-decoration:none}
-.underlined,a.underlined{text-decoration:underline}
-
-/* lists */
-.no-list-style{list-style-type:none}
-
-/* margin and padding */
+/* box model */
 .after0{margin-right:0}.after3{margin-right:3px}.after6{margin-right:6px}.after9{margin-right:9px}.after12{margin-right:12px}.after15{margin-right:15px}.after18{margin-right:18px}.after24{margin-right:24px}.after30{margin-right:30px}
 .append0{padding-right:0}.append3{padding-right:3px}.append6{padding-right:6px}.append9{padding-right:9px}.append12{padding-right:12px}.append15{padding-right:15px}.append18{padding-right:18px}.append24{padding-right:24px}.append30{padding-right:30px}
 .before0{margin-left:0}.before3{margin-left:3px}.before6{margin-left:6px}.before9{margin-left:9px}.before12{margin-left:12px}.before15{margin-left:15px}.before18{margin-left:18px}.before24{margin-left:24px}.before30{margin-left:30px}
@@ -62,6 +27,18 @@ a:hover{color:#00F}
 .padding0{padding:0}.padding3{padding:3px}.padding6{padding:6px}.padding9{padding:9px}.padding12{padding:12px}.padding15{padding:15px}.padding18{padding:18px}.padding24{padding:24px}.padding30{padding:30px}
 .padtop0{padding-top:0}.padtop3{padding-top:3px}.padtop6{padding-top:6px}.padtop9{padding-top:9px}.padtop12{padding-top:12px}.padtop15{padding-top:15px}.padtop18{padding-top:18px}.padtop24{padding-top:24px}.padtop30{padding-top:30px}
 .prepend0{padding-left:0}.prepend3{padding-left:3px}.prepend6{padding-left:6px}.prepend9{padding-left:9px}.prepend12{padding-left:12px}.prepend15{padding-left:15px}.prepend18{padding-left:18px}.prepend24{padding-left:24px}.prepend30{padding-left:30px}
+
+
+
+/* link-related */
+a:hover{color:blue}
+a:active{color:white}
+.cursor-pointer{cursor:pointer}
+.not-underlined,.not-underlined:hover,a.not-underlined,a.not-underlined:hover{text-decoration:none}
+.underlined,a.underlined{text-decoration:underline}
+
+/* lists */
+.no-list-style{list-style-type:none}
 
 /* positional */
 .aligned-center{text-align:center}
@@ -74,8 +51,8 @@ a:hover{color:#00F}
 .right{float:right}
 
 /* test */
-.test1{background-color:#F00}
-.test2{background-color:#FF0}
+.debug-red{background-color:red;color:red}
+.debug-yellow{background-color:yellow;color:yellow}
 
 /* typography */
 .size9{font-size:9px}.size10{font-size:10px}.size11{font-size:11px}.size12{font-size:12px}.size14{font-size:14px}.size15{font-size:15px}.size18{font-size:18px}.size21{font-size:21px}.size24{font-size:24px}.size27{font-size:27px}
@@ -93,23 +70,22 @@ em,.em{font-style:italic}
 strong,b,.b,.strong{font-weight:700}
 .lowercase{text-transform:lowercase}
 .uppercase{text-transform:uppercase}
-h1{font:42px/60px Arial, serif}
-h2{font:30px/48px Arial, serif}
-h3,legend,caption{font:21px/36px Arial, serif}
-h4,th{font:15px/24px Arial, sans-serif;font-weight:700}
-h5{font:12px/18px Arial, sans-serif}
-h6{font:10px/15px Arial, sans-serif;font-weight:700}
-p{font:12px/18px Arial, sans-serif;color:#333;margin:0 0 21px}
+h1{font:42px/60px Arial, Helvetica, sans-serif}
+h2{font:30px/48px Arial, Helvetica, sans-serif}
+h3,legend,caption{font:21px/36px Arial, Helvetica, sans-serif}
+h4,th{font:15px/24px Arial, Helvetica, sans-serif;font-weight:700}
+h5{font:12px/18px Arial, Helvetica, sans-serif}
+h6{font:10px/15px Arial, Helvetica, sans-serif;font-weight:700}
+p{font:12px/18px Arial, Helvetica, sans-serif;margin:0 0 21px}
 ul,ol{font-size:12px}
 ol ol{list-style:lower-roman}
-
-.apple-spacing{letter-spacing:-.03em}
 
 /* visibility */
 .block{display:block}
 .clear:after {content: "";display: table;clear: both}
 .hidden{display:none}
 .inline{display:inline}
+.inline-block{display:inline-block}
 .overflow-hidden{overflow:hidden}
 
 /* width */
